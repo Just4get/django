@@ -1,0 +1,107 @@
+#main_block{
+	width: 600px;
+	height: 600px;
+	background-color: #ef2729;
+	position: relative;
+}
+
+#white_hor_line{
+	width: 600px;
+	height: 200px;
+	position: absolute;
+    top: 33.33%;
+	background-color: white;
+}
+
+#blue_hor_line{
+	width: 600px;
+	height: 100;
+	position: absolute;
+    top: 41.66%;
+	background-color: #002368;
+}
+
+#white_ver_line{
+	width: 200;
+	height: 600px;
+	position: absolute;
+    left: 33.33%;
+	background-color: white	;
+}
+
+#blue_ver_line{
+	width: 100px;
+	height: 600px;
+	position: absolute;
+    left: 41.66%;
+	background-color: #002368;
+}
+
+
+@media screen and (max-width: 600px)   {
+	#main_block{
+		width: 100%;
+		height: 100%;
+	}
+	#white_hor_line{
+		width: 100%;
+		height: 33.33%;
+	}
+	#blue_hor_line{
+		width: 100%;
+		height: 16.66%;
+	}
+	#white_ver_line{
+		width: 33.33%;
+		height: 100%;
+	}
+	#blue_ver_line{
+		width: 16.66%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 320px){
+	#main_block{
+		width: 100%;
+		height: 100%;
+	}
+	#white_hor_line{
+		width: 100%;
+		height: 33.33%;
+	}
+	#blue_hor_line{
+		width: 100%;
+		height: 16.66%;
+	}
+	#white_ver_line{
+		width: 33.33%;
+		height: 100%;
+	}
+	#blue_ver_line{
+		width: 16.66%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#main_block{
+		width: 100%;
+		height: 100%;
+	}
+	#white_hor_line{
+		width: 100%;
+		height: 33.33%;
+	}
+	#blue_hor_line{
+		width: 100%;
+		height: 16.66%;
+	}
+	#white_ver_line{
+		width: 33.33%;
+		height: 100%;
+	}
+	#blue_ver_line{
+		width: 16.66%;
+		height: 100%;
+	}
+}
